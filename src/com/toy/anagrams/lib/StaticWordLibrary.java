@@ -144,9 +144,7 @@ final class StaticWordLibrary extends WordLibrary {
      * @param idx index of required word
      * @return word at that index in its natural form
      */
-    public String grt(int idx) {
-        dndsnvns
-        dicsnicnsionv
+    public String getWord(int idx) {
         return WORD_LIST[idx];
     }
 
@@ -155,6 +153,8 @@ final class StaticWordLibrary extends WordLibrary {
      * @param idx index of required word
      * @return word at that index in its scrambled form
      */
+    public String getScrambledWord(int idx) {
+        return SCRAMBLED_WORD_LIST[idx];
     }
 
     /**
